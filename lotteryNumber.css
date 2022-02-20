@@ -1,0 +1,135 @@
+
+body{
+        
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 300px 100px 100px;
+    grid-template-rows: 100px repeat(9,50px);
+    justify-content: center;
+    grid-template-areas: 
+    "input submitButton resetButton"
+    "number jok sup"
+    "number1 joker1 superstar1"
+    "number2 joker2 superstar2"
+    "number3 joker3 superstar3"
+    "number4 joker4 superstar4"
+    "number5 joker5 superstar5"
+    "number6 joker6 superstar6"
+    "number7 joker7 superstar7"
+    "number8 joker8 superstar8";
+
+    position: relative;
+    
+}
+.jok{grid-area: jok;
+    text-align: center;
+    font-size: 10px;
+}
+.sup{grid-area: sup;
+    text-align: center;
+    font-size: 10PX;
+}
+.number{grid-area: number;
+    text-align: center;
+    font-size: 10PX;
+
+}
+
+#ticketNumber{grid-area: input;}
+.submitButton{grid-area: submitButton;}
+.resetButton{grid-area: resetButton ;}
+
+.numbers1{grid-area: number1;}
+.numbers2{grid-area: number2;}
+.numbers3{grid-area: number3;}
+.numbers4{grid-area: number4;}
+.numbers5{grid-area: number5;}
+.numbers6{grid-area: number6;}
+.numbers7{grid-area: number7;}
+.numbers8{grid-area: number8;}
+
+.superstar1{grid-area: superstar1;}
+.superstar2{grid-area: superstar2;}
+.superstar3{grid-area: superstar3;}
+.superstar4{grid-area: superstar4;}
+.superstar5{grid-area: superstar5;}
+.superstar6{grid-area: superstar6;}
+.superstar7{grid-area: superstar7;}
+.superstar8{grid-area: superstar8;}
+
+.joker1{grid-area: joker1;}
+.joker2{grid-area: joker2;}
+.joker3{grid-area: joker3;}
+.joker4{grid-area: joker4;}
+.joker5{grid-area: joker5;}
+.joker6{grid-area: joker6;}
+.joker7{grid-area: joker7;}
+.joker8{grid-area: joker8;}
+
+.numbers{
+    text-align: center;
+}
+.joker{
+    text-align: center;
+}
+.superstar{
+    text-align: center;
+}
+
+#ticketNumber{
+    border-radius: 5px;
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.submitButton{
+    border-radius: 10px;
+    height: 40px;
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: yellowgreen;
+}
+.resetButton{
+    border-radius: 10px;
+    height: 40px;
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 2px;
+    background-color: crimson;
+}
+.numbers,.joker,.superstar{
+    /* background-color: rgba(255,215,0,0.5); */
+    
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    
+    
+}
+H1{
+    text-align: center;
+}
+.backroundImg{
+    grid-column: 1/4;
+    grid-row: 2/10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+
+}
+
+
+
+
+
