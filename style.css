@@ -1,7 +1,5 @@
 
-body{
-        
-}
+
 .conteiner{
     display: grid;
     grid-template-columns: 300px 100px 100px;
@@ -84,7 +82,7 @@ body{
     margin: auto;
     background-color: bisque;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 600;
 }
 .submitButton{
@@ -128,6 +126,7 @@ H1{
     opacity: 0.2;
 
 }
+
 
 
 
